@@ -55,6 +55,9 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+		width: 880px;
+		margin: 0 auto;
+    display: block;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,6 +68,102 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navbar {
-	color: red;
+.navbar_top {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  padding-left: 0;
+}
+
+a{
+  padding: 0 50px 5px 0;
+}
+
+.navbar_top a{
+  color: #BABABA;
+  padding 150px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logoIMG {
+  display: inline-block;
+  position: relative;
+  padding-left: 48px;
+}
+
+header {
+  border: 1px solid red;
+  height: 440px;
+  vertical-align: top;
+  border-bottom: 2px solid black;
+}
+
+.banner {
+  border: 1px solid green;
+  width: 440px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+ /* vertical-align: center;  /*  not "centering" */
+  margin: 100px 10px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 70px;
+  width: 250px;
+
+}
+
+button {
+  font-size: 30px;
+  border: 1px solid black;
+  width: 220px;
+}
+
+.headerIMG {
+  border: 1px solid blue;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  padding-left: 20px;
+}
+
+
+.top-content {
+  border: 1px solid hotpink;
+  width: 420px;
+  display: inline-block;
+  padding: 30px 20px 30px 0;
+}
+
+.top-content:last-child {
+  margin-left: 30px;
+}
+
+.middle-img {
+  width: 100%;
+}
+
+.bottom-content {
+  border: 1px solid hotpink;
+  width: 33%;
+  display: inline-block;
+  padding: 30px 30px 30px 0;
+}
+
+address {
+  border: 1px solid green;
+  padding: 40px 0;
+}
+
+.phone {
+  padding: 10px 0;
+}
+
+h4 {
+  padding: 20px;
+  text-align: center;
+  font-size: 10px;
 }

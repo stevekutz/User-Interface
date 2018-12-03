@@ -61,7 +61,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -69,14 +69,17 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .nav-container {
   height: 40px;
-  width: 100%;
-  margin: 40px;
+  width: 880px;
+  position: fixed;
+  z-index: 1;
+  background: darkblue;
+  top: 0;
 }
 
 
 .navbar_top {
   display: inline-block;
-  padding: 10px 0;
+  padding: 10px 0 0 10px;
   vertical-align: top;
 }
 
@@ -88,13 +91,23 @@ a{
   color: #BABABA;
   display: inline-block;
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+
+.navbar_top a:hover {
+  font-size: 16px;
+  color: white;
 }
 
 .logoIMG {
   display: inline-block;
-  width: 184px;
-  margin-left: 44px;
+  width: 191.78px;
+  height: 40px;
+  margin-left: 18.85px;
   position: relative;
+  background: lightgrey;
+  text-align: center;
 }
 
 header {
@@ -103,6 +116,7 @@ header {
   border-bottom: 2px solid black;
   position: relative;
   padding-bottom: 30px;
+  margin-top: 76px;
 }
 
 .banner {
@@ -117,13 +131,19 @@ h1 {
   display: inline-block;
   font-size: 70px;
   width: 250px;
-
+  font-family: 'Questrial', sans-serif;
 }
 
 button {
   font-size: 26px;
   border: 1px solid black;
   width: 220px;
+  border-radius: 5px;
+  margin-left: 18px;
+}
+
+button:hover {
+  background: lightgray;
 }
 
 .headerIMG {
@@ -133,6 +153,9 @@ button {
   padding-left: 58px;
 }
 
+h2 {
+  font-family: 'Black Han Sans', sans-serif;
+}
 
 .top-content {
   width: 432px;
@@ -172,6 +195,11 @@ address {
 
 .phone {
   padding: 20px 0;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 h4 {
